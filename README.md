@@ -17,13 +17,13 @@ HTML-страница загружается напрямую с сайта: **h
 
 ## Запуск
 
-### Клонируйте репозиторий
+### 1) Клонируйте репозиторий
 `git clone https://github.com/Valeriyakos/pedsovet_parser`
 
-### Перейдите в папку проекта
+### 2) Перейдите в папку проекта
 `cd pedsovet_parser`
 
-### Установите зависимости и запустите
+### 3) Установите зависимости и запустите
 `py -m venv venv`
 `venv\Scripts\activate`
 `pip install -r requirements.txt`
