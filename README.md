@@ -15,19 +15,19 @@ HTML-страница загружается напрямую с сайта: **h
 - **Обрабатывает относительные ссылки**
 - **Сохраняет результаты в структурированном формате**
 
-### Запуск
+## Запуск
 
-# Клонируйте репозиторий
-git clone https://github.com/Valeriyakos/pedsovet_parser
+### Клонируйте репозиторий
+`git clone https://github.com/Valeriyakos/pedsovet_parser`
 
-# Перейдите в папку проекта
-cd pedsovet_parser
+### Перейдите в папку проекта
+`cd pedsovet_parser`
 
-# Установите зависимости и запустите
-py -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-py parse_pedagogy.py
+### Установите зависимости и запустите
+`py -m venv venv`
+`venv\Scripts\activate`
+`pip install -r requirements.txt`
+`py parse_pedagogy.py`
 
 ### Пример использования
 `py parse_pedagogy.py`
@@ -69,8 +69,8 @@ py parse_pedagogy.py
 
 ### Структура проекта
 
-`parse_pedagogy.py`    # Основной скрипт парсера
-`requirements.txt`     # Список зависимостей
-`README.md`           # Документация
-`.gitignore`          # Исключаемые файлы
-`articles.json`       # Результат работы (создается автоматически)
+- `parse_pedagogy.py`    # Основной скрипт парсера
+- `requirements.txt`     # Список зависимостей
+- `README.md`           # Документация
+- `.gitignore`          # Исключаемые файлы
+- `articles.json`       # Результат работы (создается автоматически)
